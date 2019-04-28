@@ -1,0 +1,23 @@
+n1 points to: 5 6 2 
+n2 points to: 6 3 
+n3 points to: 4 6 
+n4 points to: 5 6 
+n5 points to: 6 
+
+	n1	n2	n3	n4	n5	n6	
+	0	1	1	1	2	5
+
+	0	0	1	1	1	4
+	0	0	0	1	1	3
+	0	0	0	0	1	2
+	0	0	0	0	0	1
+	0	0	0	0	0	0
+Stack   1 2 3 4 5 6
+
+Tasks			n1		n2		n3		n4		n5		n6		
+Predecessors	  	  	  1 	  2 	  3 	  1 4 	  1 2 3 4 5 	
+Successors		5 6 2 	6 3 	4 6 	5 6 	6 		
+Time/Task		3		2		1		6		4		5		
+EFT				3   	5   	3   	7   	13   	21   	
+LFT		
+Critical Tasks		
