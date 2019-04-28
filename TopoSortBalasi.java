@@ -1,6 +1,4 @@
-//Jen Balasi
-//CSC 406
-//A3P2
+
 
 import java.io.PrintWriter;
 import java.util.LinkedList;
